@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1084bce9.css",
+    "main.js": "/static/js/main.2206da46.js",
+    "static/js/787.67ac15cd.chunk.js": "/static/js/787.67ac15cd.chunk.js",
+    "static/media/timetable.mp4": "/static/media/timetable.4871c813945a67b41893.mp4",
+    "static/media/demo2.png": "/static/media/demo2.9739403d99655c8fbd3a.png",
+    "static/media/demo1.png": "/static/media/demo1.75236362aa33a570ee38.png",
+    "static/media/richmenu-last.jpg": "/static/media/richmenu-last.b5a7d291055e6a3f99f5.jpg",
+    "static/media/timeexam.jpg": "/static/media/timeexam.498b5d4f5167b7b4b9b1.jpg",
+    "static/media/grades.jpg": "/static/media/grades.8da97c4f19df9f5e27d6.jpg",
+    "static/media/NUlogo.png": "/static/media/NUlogo.48131ed15142a02661ad.png",
+    "static/media/logoSchool-removebg-preview.png": "/static/media/logoSchool-removebg-preview.72e80d5248925dc2aa24.png",
+    "static/media/profileImg.png": "/static/media/profileImg.3b99c8c99a6636d7a3b1.png",
+    "index.html": "/index.html",
+    "main.1084bce9.css.map": "/static/css/main.1084bce9.css.map",
+    "main.2206da46.js.map": "/static/js/main.2206da46.js.map",
+    "787.67ac15cd.chunk.js.map": "/static/js/787.67ac15cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1084bce9.css",
+    "static/js/main.2206da46.js"
+  ]
+}
