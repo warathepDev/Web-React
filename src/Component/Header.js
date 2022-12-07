@@ -14,7 +14,7 @@ function Header() {
         <div className="container">
             <nav className='nav-bar'>
                 <div className="logo">
-                    <a href='index.js'>Warathep<span>Dev.</span></a>
+                    <a href='#banner'>Warathep<span>Dev.</span></a>
                 </div>
                 
                     <ul className={ click ? "menu active" : "menu"}>
