@@ -26,7 +26,7 @@ function Banner() {
     }
 
     return (
-        <div className='banner'>
+        <div className='banner' id='banner'>
             <div className='container'>
                 <div className='banner-con'>
                         <div className='banner-text'>

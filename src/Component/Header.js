@@ -10,22 +10,22 @@ function Header() {
     const closeMobileMenu = () => setClick(false)
 
   return (
-    <div className='header'>
+    <div className='header' id='header'>
         <div className="container">
             <nav className='nav-bar'>
                 <div className="logo">
-                    <a href='#'>Warathep<span>Dev.</span></a>
+                    <a href='index.js'>Warathep<span>Dev.</span></a>
                 </div>
                 
                     <ul className={ click ? "menu active" : "menu"}>
                         <li className='menu-link' onClick={ closeMobileMenu }>
-                            <a href="#">Portfolio</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li className='menu-link' onClick={ closeMobileMenu }>
-                            <a href="#">Experience</a>
+                            <a href="#experience">Experience</a>
                         </li>
                         <li className='menu-link' onClick={ closeMobileMenu }>
-                            <a href="#">Contact</a>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                     <div className='mobile-menu' onClick={ handleClick }>

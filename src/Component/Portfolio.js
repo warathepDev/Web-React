@@ -9,9 +9,9 @@ import univer from '../assets/NUlogo.png'
 function Portfolio() {
   return (
 
-    <div className="port">
+    <div className="port" id='portfolio'>
       <div className='container-p'>
-        <div className="head-name">
+        <div className="head-name" >
             <h1>Portfolio</h1>
         </div>
           <div className="port-con">

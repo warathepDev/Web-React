@@ -3,22 +3,22 @@ import './Footer.css'
 
 function Footer() {
   return (
-        <footer className='footer'>
+        <footer className='footer' id='footer'>
                 <div className="container-footer">
                     <nav className='nav-menu'>
                         <div className="logo">
-                            <a href='#'>Warathep<span>Dev.</span></a>
+                            <a href='#banner'>Warathep<span>Dev.</span></a>
                         </div>
 
                         <ul className= "menu-footer">
                             <li className='menu-link' >
-                                <a href="#">Portfolio</a>
+                                <a href="#portfolio">Portfolio</a>
                             </li>
                             <li className='menu-link' >
-                                <a href="#">Experience</a>
+                                <a href="#experience">Experience</a>
                             </li>
                             <li className='menu-link' >
-                                <a href="#">Contact</a>
+                                <a href="#contact">Contact</a>
                             </li>
                         </ul>
 

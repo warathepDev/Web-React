@@ -1,6 +1,7 @@
 .experience{
     display: flex;
     justify-content: center;
+    transition: 0.2s ease;
 }
 
 .container-ex{

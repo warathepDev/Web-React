@@ -13,7 +13,7 @@ import demo2 from '../assets/demo2.png'
 function Experience() {
   return (
     
-    <div className="experience">
+    <div className="experience" id='experience'>
         <div className="container-ex">
             <div className="head-name"> 
                 <h1>Experience</h1>
