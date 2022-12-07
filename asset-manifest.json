@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Web-React/static/css/main.7ee34636.css",
+    "main.js": "/Web-React/static/js/main.d4a4ec6b.js",
+    "static/js/787.87c8eaef.chunk.js": "/Web-React/static/js/787.87c8eaef.chunk.js",
+    "static/media/timetable.mp4": "/Web-React/static/media/timetable.4871c813945a67b41893.mp4",
+    "static/media/demo2.png": "/Web-React/static/media/demo2.9739403d99655c8fbd3a.png",
+    "static/media/demo1.png": "/Web-React/static/media/demo1.75236362aa33a570ee38.png",
+    "static/media/richmenu-last.jpg": "/Web-React/static/media/richmenu-last.b5a7d291055e6a3f99f5.jpg",
+    "static/media/timeexam.jpg": "/Web-React/static/media/timeexam.498b5d4f5167b7b4b9b1.jpg",
+    "static/media/grades.jpg": "/Web-React/static/media/grades.8da97c4f19df9f5e27d6.jpg",
+    "static/media/NUlogo.png": "/Web-React/static/media/NUlogo.48131ed15142a02661ad.png",
+    "static/media/logoSchool-removebg-preview.png": "/Web-React/static/media/logoSchool-removebg-preview.72e80d5248925dc2aa24.png",
+    "static/media/profileImg.png": "/Web-React/static/media/profileImg.3b99c8c99a6636d7a3b1.png",
+    "index.html": "/Web-React/index.html",
+    "main.7ee34636.css.map": "/Web-React/static/css/main.7ee34636.css.map",
+    "main.d4a4ec6b.js.map": "/Web-React/static/js/main.d4a4ec6b.js.map",
+    "787.87c8eaef.chunk.js.map": "/Web-React/static/js/787.87c8eaef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ee34636.css",
+    "static/js/main.d4a4ec6b.js"
+  ]
+}
