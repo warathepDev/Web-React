@@ -15,7 +15,7 @@ function Contact() {
                     <div className="con-link github">
                         <IoLogoGithub/>
                         <p>Github</p>
-                        <a href='https://github.com/warathepDev'>Profile Github</a>
+                        <a href='https://github.com/warathepDev' target="_blank" >Profile Github</a>
                     </div>
                     <div className="con-link phone-number">
                         <IoPhonePortraitOutline/>

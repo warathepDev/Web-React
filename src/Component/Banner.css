@@ -60,11 +60,11 @@
     display: flex;
     position: absolute;
     /* background-color: red; */
-    background:linear-gradient(to right bottom, #061680 30%, #973fcf 100%);
+    background:linear-gradient(to right bottom, #0c21aa 30%, #973fcf 100%);
     /* backdrop-filter: blur(10px); */
     filter: blur(60px);
     opacity: 40%;
-    height: 31.25;
+    height: 31.25rem;
     width: 25rem;
     border-radius: 50%;
     /* border: 1px solif red; */
@@ -77,10 +77,11 @@
 }
 
 .circle2{
-    top: 40rem;
-    right: -3.125;
+    bottom: -77rem;
+    right: 31rem;
     position: absolute;
-    display: none;
+    /* display: none; */
+    overflow: hidden;
 }
 
 .banner-con{
@@ -174,6 +175,12 @@ button:hover{
         width: 25.938rem;
         border-radius: 0.625rem;
         margin-top: 5rem;
+    }
+
+    .circle2{
+        bottom: -45rem;
+        right: 1rem;
+        overflow: hidden;
     }
 
     .banner-text{
