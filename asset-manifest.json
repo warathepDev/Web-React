@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Web-React/static/css/main.9ee140e0.css",
-    "main.js": "/Web-React/static/js/main.c9b3d45c.js",
+    "main.css": "/Web-React/static/css/main.3c6e4a54.css",
+    "main.js": "/Web-React/static/js/main.50bde7c7.js",
     "static/js/787.87c8eaef.chunk.js": "/Web-React/static/js/787.87c8eaef.chunk.js",
     "static/media/timetable.mp4": "/Web-React/static/media/timetable.4871c813945a67b41893.mp4",
     "static/media/demo2.png": "/Web-React/static/media/demo2.9739403d99655c8fbd3a.png",
@@ -13,12 +13,12 @@
     "static/media/logoSchool-removebg-preview.png": "/Web-React/static/media/logoSchool-removebg-preview.72e80d5248925dc2aa24.png",
     "static/media/profileImg.png": "/Web-React/static/media/profileImg.3b99c8c99a6636d7a3b1.png",
     "index.html": "/Web-React/index.html",
-    "main.9ee140e0.css.map": "/Web-React/static/css/main.9ee140e0.css.map",
-    "main.c9b3d45c.js.map": "/Web-React/static/js/main.c9b3d45c.js.map",
+    "main.3c6e4a54.css.map": "/Web-React/static/css/main.3c6e4a54.css.map",
+    "main.50bde7c7.js.map": "/Web-React/static/js/main.50bde7c7.js.map",
     "787.87c8eaef.chunk.js.map": "/Web-React/static/js/787.87c8eaef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ee140e0.css",
-    "static/js/main.c9b3d45c.js"
+    "static/css/main.3c6e4a54.css",
+    "static/js/main.50bde7c7.js"
   ]
 }
