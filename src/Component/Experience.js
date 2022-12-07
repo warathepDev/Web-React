@@ -75,7 +75,7 @@ function Experience() {
 
                                     </div>
                                     <div className='demo'>
-                                        <video src={timeTable}></video>
+                                        <video src={timeTable} autoPlay loop muted></video>
                                         <p>Class Schedule</p>
 
                                     </div>
