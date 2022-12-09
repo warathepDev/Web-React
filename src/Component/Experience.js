@@ -51,9 +51,9 @@ function Experience() {
                             </p>
                             <div className="tech">
                                 <div className="using-machine">
-                                    <p>Model : </p>
-                                    <p>Language : </p>
-                                    <p>Technique : </p>
+                                    <p>Model</p>
+                                    <p>Language </p>
+                                    <p>Technique </p>
                                     
                                 </div>
                                 <div className="use-machine">

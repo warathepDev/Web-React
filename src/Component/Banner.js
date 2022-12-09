@@ -27,7 +27,7 @@ function Banner() {
 
     return (
         <div className='banner' id='banner'>
-            <div className='container'>
+            <div className='container-b'>
                 <div className='banner-con'>
                         <div className='banner-text'>
                             <h1>

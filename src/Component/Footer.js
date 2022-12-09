@@ -28,8 +28,9 @@ function Footer() {
                                 </div>
                                 <div className="footer-email">
                                     <a href="mailto:basvaratap@gmail.com" >basvaratap@gmail.com</a>
-                                    <a href="mailto:warathepk61@nu.ac.th" className='mail-link'>warathepk61@nu.ac.th</a>
-
+                                </div>
+                                <div className="footer-email">
+                                    <a href="mailto:warathepk61@nu.ac.th">warathepk61@nu.ac.th</a>
                                 </div>
                         </div>
                     </nav>

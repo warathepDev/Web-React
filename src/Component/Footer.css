@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 .container-footer{
     width: 100vw;
     height: auto;
@@ -54,12 +52,15 @@
     font-weight: 500;
 }
 
- @media screen and (max-width: 480px) {
+ @media only screen
+    and (min-width: 360px) 
+    and (max-width: 480px)  
+{
     .container-footer{
         width: 100%;
     }
     /* .footer{
-        height: fit-content;
+        display: none;
     } */
     .nav-menu{
         padding: 8rem 1rem;
@@ -67,17 +68,88 @@
         align-items: top;
     }
 
+    .nav-menu .logo a{
+        font-size: 3.5vw;
+    }
+
     .nav-menu .contact-menu .footer-tel{
-        margin-bottom: .5rem;
+        margin-bottom: .85rem;
+    }
+
+    .nav-menu ul li a{
+        font-size: 2.1vw;
+        font-weight: 500;
     }
 
     .nav-menu .menu-footer .menu-link {
         margin-bottom: .3rem;
+        
     }
 
     .nav-menu .contact-menu a{
-        margin-bottom: .5rem;
-        font-size: 13px;
+        margin-bottom: .85rem;
+        font-size: 2.1vw;
         font-weight: 500;
     }
  }
+
+
+ @media only screen
+    and (min-width: 481px) 
+    and (max-width: 768px) 
+{
+    .container-footer{
+        width: 100%;
+    }
+    /* .footer{
+        display: none;
+    } */
+    .nav-menu{
+        padding: 8rem 1.5rem;
+        /* height: 10rem; */
+        align-items: top;
+    }
+
+    .nav-menu .logo a{
+        font-size: 3.5vw;
+    }
+
+    .nav-menu .contact-menu .footer-tel{
+        margin-bottom: .8rem;
+    }
+
+    .nav-menu ul li a{
+        font-size: 2.1vw;
+        /* margin-bottom: .4rem; */
+        font-weight: 500;
+    }
+
+    .nav-menu .menu-footer .menu-link {
+        margin-bottom: 0.5rem;
+        box-sizing: border-box;
+        
+    }
+
+    .nav-menu .contact-menu .footer-email{
+        margin-bottom: .8rem;
+    }
+
+    .nav-menu .contact-menu a{
+        margin-bottom: 0rem;
+        font-size: 2.1vw;
+        font-weight: 500;
+    }
+
+}
+
+@media only screen
+    and (min-width: 769px) 
+    and (max-width: 1024px) 
+{
+    .nav-menu{
+        padding: 8rem 2rem;
+        /* height: 10rem; */
+        align-items: top;
+    }
+
+}

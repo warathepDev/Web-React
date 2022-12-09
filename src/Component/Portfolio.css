@@ -276,8 +276,384 @@
     background-attachment: fixed;
 }
 
+@media only screen
+    and (min-width: 360px) 
+    and (max-width: 480px) 
+    /* and (-webkit-device-pixel-ratio: 3) { */
+{
+    /* .port{
+        display: none;
+    } */
+    .port-con{
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 25.938rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-@media screen and (max-width: 480px) {
+    .container-p{
+        max-width: 25.938rem;
+        padding: 0 0.7rem;
+
+    }
+
+    .container-p .head-name{
+        padding: 0.813rem;
+        border-radius: 0.625rem;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        max-width: 25.938rem;
+    }
+
+    .container-p .head-name h1{
+        font-size: 4vw;
+    }
+
+    .profile{
+        padding: 0;
+        margin-right: 0.625rem;
+    }
+
+    .pro img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .detail{
+        margin: 0 0.188rem;
+    }   
+    .detail h3{
+        font-size: 2.5vw;
+    }
+
+    .detail p{
+        font-size: 2vw;
+        margin-bottom: 0.938rem;
+    }
+
+    .sub-pro .topic p{
+        font-size: 2.1vw;
+        margin: 0;
+    }
+
+    .sub-pro .value{
+        margin-left: 2.563rem;
+    }
+
+    .sub-pro .value p{
+        font-size: 2.1vw;
+        margin: 0;
+
+    }
+    .tech{
+        margin-top: 0.625rem;
+    }
+
+    .tech .skills p{
+        font-size: 2.1vw;
+        margin-bottom: 0.313rem;
+        margin-top: 0;
+
+    }
+    .tech .technicals p{
+        font-size: 2.1vw;
+        margin-top: 0;
+        margin-bottom: 0.313rem;
+
+    }
+
+    .tech .technicals{
+        margin-left: 1.875rem;
+    }
+
+    .profile-details .descript{
+        
+        padding: 0.625rem;
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 0.625rem;
+    }
+
+    .profile-details .descript p{
+        margin: 0;
+        font-size: 2.1vw;
+        
+    }
+
+    .ed-ex .education{
+        padding: 6px;       
+        margin-left: 0.625rem;
+        margin: 0.625rem 0;
+        margin-bottom: 0;
+        border-radius: 0.625rem;
+    }
+
+    .school{
+        margin-bottom: 0.625rem;
+    }
+
+    .ed-ex .education h1{
+        font-size: 2.5vw;
+        margin-bottom: 0.625rem;
+    }
+
+    .ed-ex .education p{
+        font-size: 1.7vw;
+        margin-bottom: 0.313rem;
+    }
+
+    .ed-ex .education img{
+        height: 1.875rem;
+        width: 1.875rem;
+        margin-bottom: 0px;
+    }
+
+    .ed-ex .experience-p{
+        margin: 0.625rem;
+        padding: 0.375rem;
+        margin-right: 0;
+        margin-bottom: 0;
+        border-radius: 0.625rem;
+    }
+
+    .ed-ex .experience-p h1{
+        font-size: 2.5vw;
+        margin-bottom: 0.625rem;
+    }
+
+    .ed-ex .experience-p p{
+        font-size: 1.7vw;
+        margin-bottom: 0.188rem;
+    }
+
+    .project-name{
+        margin-bottom: 0.875rem;
+
+    }
+
+    .project-name a{
+        font-size: 1vw;
+        margin-top: 0;
+    }
+
+    .circle3{
+        height: 9.375rem;
+        width: 18.75rem;
+    }
+}
+
+
+@media only screen
+    and (min-width: 481px) 
+    and (max-width: 768px) 
+{
+   
+    .port-con{
+        padding: 2.5vw;
+        border-radius: 10px;
+        max-width: 45rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-p{
+        max-width: 45rem;
+        padding: 0 1rem;
+
+    }
+
+    .container-p .head-name{
+        padding: 2.5vw;
+        border-radius: 0.625rem;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        max-width: 45rem;
+    }
+
+    .container-p .head-name h1{
+        font-size: 4vw;
+    }
+
+    .profile{
+        padding: 0;
+        margin-right: 0.625rem;
+    }
+
+    .pro img{
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+    .detail{
+        margin: 0 0.188rem;
+    }   
+    .detail h3{
+        font-size: 2.5vw;
+    }
+
+    .detail p{
+        font-size: 2vw;
+        margin-bottom: 0.938rem;
+    }
+
+    .sub-pro{
+        justify-content: center;
+        margin-bottom: 1vw;
+    }
+
+    .sub-pro .topic p{
+        font-size: 2.1vw;
+        margin: 0;
+    }
+
+    .sub-pro .value{
+        margin-left: 4.7rem;
+    }
+
+    .sub-pro .value p{
+        font-size: 2.1vw;
+        margin: 0;
+
+    }
+    .tech{
+        margin-top: 0.625rem;
+    }
+
+    .tech .skills p{
+        font-size: 2.1vw;
+        margin-bottom: 1.2vw;
+        margin-top: 0;
+
+    }
+    .tech .technicals p{
+        font-size: 2.1vw;
+        margin-top: 0;
+        margin-bottom: 1.2vw;
+
+    }
+
+    .tech .technicals{
+        margin-left: 4rem;
+    }
+
+    .profile-details .descript{ 
+        padding: 2.5vw;
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 0.625rem;
+    }
+
+    .profile-details .descript p{
+        margin: 0;
+        font-size: 2.1vw;
+        
+    }
+
+    .ed-ex .education{
+        padding: 2vw;       
+        margin-left: 0.625rem;
+        margin: 0.625rem 0;
+        margin-bottom: 0;
+        border-radius: 0.625rem;
+    }
+
+    .school{
+        margin-bottom: 0.625rem;
+    }
+
+    .ed-ex .education h1{
+        font-size: 2.5vw;
+        margin-bottom: 0.625rem;
+    }
+
+    .ed-ex .education p{
+        font-size: 1.7vw;
+        margin-bottom: 0.313rem;
+    }
+
+    .ed-ex .education img{
+        height: 5vw;
+        width: 5vw;
+        margin-bottom: 0px;
+    }
+
+    .ed-ex .experience-p{
+        margin: 0.625rem;
+        padding: 2vw;
+        margin-right: 0;
+        margin-bottom: 0;
+        border-radius: 0.625rem;
+    }
+
+    .ed-ex .experience-p h1{
+        font-size: 2.5vw;
+        margin-bottom: 0.625rem;
+    }
+
+    .ed-ex .experience-p p{
+        font-size: 1.7vw;
+        margin-bottom: 0.188rem;
+    }
+
+    .project-name{
+        margin-bottom: 0.875rem;
+
+    }
+
+    .project-name a{
+        font-size: 1vw;
+        margin-top: 0;
+    }
+
+    .circle3{
+        height: 9.375rem;
+        width: 18.75rem;
+    }
+
+}
+
+@media only screen
+    and (min-width: 769px) 
+    and (max-width: 1024px) 
+{
+    .port-con{
+        padding: 2.5vw;
+        border-radius: 1.25rem;
+        max-width: 56.25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-p{
+        max-width: 56.25rem;
+        padding: 0 1.5rem;
+
+    }
+
+    .container-p .head-name{
+      
+        border-radius: 1.25rem;
+    }
+
+    .sub-pro{
+        justify-content: center;
+        margin-bottom: 1vw;
+    }
+
+    .sub-pro .value{
+        margin-left: 8.5rem;
+    }
+
+    .profile-details .descript{
+        margin-right: 0;
+    }
+
+    .ed-ex .experience-p{  
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* @media screen and (max-width: 480px) {
     .port-con{
         padding: 10px;
         border-radius: 10px;
@@ -355,7 +731,7 @@
     }
 
     .profile-details .descript{
-        /* width: 225px; */
+        
         padding: 0.625rem;
         margin-right: 0px;
         margin-left: 0px;
@@ -429,5 +805,5 @@
         width: 18.75rem;
     }
 
-}
+} */
 

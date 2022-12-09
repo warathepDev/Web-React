@@ -58,19 +58,24 @@ a.active{
 .mobile-menu{
     display: none;
 }
-@media screen and (max-width :480px) {
+
+@media only screen
+    and (min-width: 360px) 
+    and (max-width: 480px) 
+{
+    .nav-bar{
+        padding: 0 0.7rem;
+    }
 
     .menu{
         display: flex;
         position: absolute;
         flex-direction: column;
-        /* justify-content: center; */
-        /* align-items: center; */
+        font-size: 3vw;
         margin: 0 auto;
         padding: 0;
         top: 3rem;
         width: 30rem;
-        /* opacity: 10%; */
         background: rgb(255,255,255);
         backdrop-filter: blur(10px);
         background: linear-gradient(111deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 50%);
@@ -87,21 +92,13 @@ a.active{
         display: flex;
         position: absolute;
         flex-direction: column;
-        /* justify-content: center; */
-        /* align-items: center; */
         margin: 0 auto;
         padding: 0;
         top: 3rem;
-        width: 30rem;
-        /* opacity: 10%; */
+        width: 100%;
         background: rgb(255,255,255);
         backdrop-filter: blur(10px);
         background: linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.0) 50%);
-        /* border-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5)) 30;
-        border-width: 1px;
-        border-style: solid; */
-        /* border-bottom: 1px solid linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5)) 30 ; */
-        height: auto;
         left: 0;
         padding: 1rem 0 ;
         transition: 0.2s ease;
@@ -114,17 +111,13 @@ a.active{
         z-index: 10;
         
     }
-/* 
-    .nav-bar{
-        height: 3.125rem;
-    } */
 
     .nav-bar ul li{
         margin-left: 0;
         display: flex;
         justify-content: center;
         padding: .5rem 0
-        /* border-bottom: 1px solid black; */
+       
     }
     .nav-bar ul li a{
         color: #fff;
@@ -132,5 +125,22 @@ a.active{
         text-align: center;
     }
 
+}
+
+@media only screen
+    and (min-width: 481px) 
+    and (max-width: 768px) 
+{
+
+    .nav-bar{
+        padding: 0 1rem;
+    }
+    
+
+    .nav-bar .menu{
+        font-size: 0.8rem;
+    }
 
 }
+
+
