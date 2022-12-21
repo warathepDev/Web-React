@@ -260,7 +260,7 @@
 }
 
 .circle3{
-    display: flex;
+    display: none;
     position: absolute;
     background:linear-gradient(to right bottom, #0a567b 30%, #29179f 100%);
     filter: blur(50px);
